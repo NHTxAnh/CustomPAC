@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Proxies</key>
+	<dict>
+		<key>BypassAllowed</key>
+		<integer>1</integer>
+		<key>FallBackAllowed</key>
+		<integer>0</integer>
+		<key>HTTPEnable</key>
+		<integer>0</integer>
+		<key>HTTPProxyType</key>
+		<integer>2</integer>
+		<key>HTTPSEnable</key>
+		<integer>1</integer>
+		<key>ProxyAutoConfigEnable</key>
+		<integer>1</integer>
+		<key>ProxyAutoConfigURLString</key>
+		<string>https://raw.githubusercontent.com/NHTxAnh/CustomPAC/refs/heads/main/Custom.pac</string>
+	</dict>
+</dict>
+</plist>
