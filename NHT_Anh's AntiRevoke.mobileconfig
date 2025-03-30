@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+				<key>PayloadDisplayName</key>
+				<string>Global HTTP Proxy</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.proxy.http.global.20afa3ae-7d39-4e0b-8eb0-35c25b300967</string>
+				<key>PayloadType</key>
+				<string>com.apple.proxy.http.global</string>
+				<key>PayloadUUID</key>
+				<string>20afa3ae-7d39-4e0b-8eb0-35c25b300967</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+				<key>ProxyCaptiveLoginAllowed</key>
+				<true />
+				<key>ProxyPACURL</key>
+				<string>https://dl.dropboxusercontent.com/scl/fi/ryizjv3aa3uhfswi6syup/Custom.pac?rlkey=nttbygyoc9s2wfkbgs3patheq&amp;st=zyyek3le&amp;dl=0</string>
+				<key>ProxyType</key>
+				<string>Auto</string>
+			</dict>
+			<dict>
+				<key>AccountName</key>
+				<string>NHT_Anh</string>
+				<key>EmailAddress</key>
+				<string>nguyenhuynhtuananh2008@gmail.com</string>
+				<key>PayloadDisplayName</key>
+				<string>Google Account #1</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.google-oauth.8b47b471-c9fb-4e30-be52-d3364ed33d9a</string>
+				<key>PayloadType</key>
+				<string>com.apple.google-oauth</string>
+				<key>PayloadUUID</key>
+				<string>8b47b471-c9fb-4e30-be52-d3364ed33d9a</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+		</array>
+		<key>PayloadDescription</key>
+		<string>Blocking Apple's Certification Validation Server</string>
+		<key>PayloadDisplayName</key>
+		<string>NHT_Anh's AntiRevoke</string>
+		<key>PayloadIdentifier</key>
+		<string>NHT-ANH.57a40e85-05a7-4363-8d06-bd270c6c4998</string>
+		<key>PayloadOrganization</key>
+		<string>NHT_Anh</string>
+		<key>PayloadScope</key>
+		<string>System</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadUUID</key>
+		<string>57a40e85-05a7-4363-8d06-bd270c6c4998</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>TargetDeviceType</key>
+		<integer>0</integer>
+	</dict>
+</plist>
