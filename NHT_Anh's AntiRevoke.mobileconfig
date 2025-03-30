@@ -18,7 +18,7 @@
 				<key>ProxyCaptiveLoginAllowed</key>
 				<true />
 				<key>ProxyPACURL</key>
-				<string>https://dl.dropboxusercontent.com/scl/fi/uaizj34yk1qaht1lnqkhc/Custom.pac?rlkey=9owtnijmsfp8rvchr8y6nzxz2&amp;st=y457dhtk&amp;dl=0</string>
+				<string>https://dl.dropboxusercontent.com/scl/fi/oqnm6pjy7ixhaqy57l6ts/Custom.pac?rlkey=1czmicmv6e0djihk7t3wnlyeq&st=ka85rbs3&dl=0</string>
 				<key>ProxyType</key>
 				<string>Auto</string>
 			</dict>
