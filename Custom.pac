@@ -71,14 +71,13 @@ s(u,"*gu-global.com*")||
 s(u,"*tw.sym-global.com*")||
 s(u,"*graph.facebook.com*")
 )return ALLOW;
-else if(
-s(u,"*adsafeprotected*")||
+else if(s(u,"*adsafeprotected*")||
 s(u,"*app-analytics*")||
 s(u,"*app-measurement*")||
 s(u,"*applovin*")||
 s(u,"*googlead*")||
-s(u,"*googlesyndication*")|
-|s(u,"*googletag*")
+s(u,"*googlesyndication*")||
+s(u,"*googletag*")
 )return BYPASS;
 else if(
 s(u,"*vpp.itunes.apple.com*")||
