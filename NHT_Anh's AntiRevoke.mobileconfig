@@ -78,6 +78,24 @@
 				<key>PayloadVersion</key>
 				<integer>1</integer>
 			</dict>
+			<dict>
+				<key>allowApplePersonalizedAdvertising</key>
+				<false />
+				<key>allowDiagnosticSubmission</key>
+				<false />
+				<key>forceLimitAdTracking</key>
+				<true />
+				<key>PayloadDisplayName</key>
+				<string>Restrictions #1</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.applicationaccess.628f8bb9-7d52-4e54-915e-eedce1b2a41a</string>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadUUID</key>
+				<string>628f8bb9-7d52-4e54-915e-eedce1b2a41a</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>PayloadDescription</key>
 		<string>Blocking Apple's Certification Validation Server</string>
