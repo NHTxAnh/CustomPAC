@@ -9,45 +9,21 @@
 				<dict>
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
-					<key>ServerAddresses</key>
-					<array />
 					<key>ServerURL</key>
 					<string>https://dns.nextdns.io/5214d2</string>
 				</dict>
 				<key>PayloadDescription</key>
-				<string>Configures device to use NHT_Anh Encrypted DNS over HTTPS</string>
+				<string>Configures device to use NextDNS Encrypted DNS over HTTPS</string>
 				<key>PayloadDisplayName</key>
-				<string>Enable Advertisement Filtering</string>
+				<string>Enable Ad Filtering</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.0cd6791a-eb8f-4c81-b80c-f718e5f04c51</string>
 				<key>PayloadOrganization</key>
-				<string>NHT_Anh (5124d2)</string>
+				<string>NextDNS (5214d2)</string>
 				<key>PayloadType</key>
 				<string>com.apple.dnsSettings.managed</string>
 				<key>PayloadUUID</key>
 				<string>590396fe-a5b1-4778-a579-5b5ef931fdc7</string>
-				<key>PayloadVersion</key>
-				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>allowApplePersonalizedAdvertising</key>
-				<false />
-				<key>allowDiagnosticSubmission</key>
-				<false />
-				<key>AllowEnterpriseAppInstallation</key>
-				<true />
-				<key>AllowEnterpriseAppTrust</key>
-				<true />
-				<key>forceLimitAdTracking</key>
-				<true />
-				<key>PayloadDisplayName</key>
-				<string>Privacy Tweaks</string>
-				<key>PayloadIdentifier</key>
-				<string>com.optimized.trial.restrictions</string>
-				<key>PayloadType</key>
-				<string>com.apple.applicationaccess</string>
-				<key>PayloadUUID</key>
-				<string>3D67D52C-9CDC-4927-B2BD-C45302754A98</string>
 				<key>PayloadVersion</key>
 				<integer>1</integer>
 			</dict>
@@ -59,12 +35,14 @@
 					<key>ServerURL</key>
 					<string>https://dns.nextdns.io/ad692a</string>
 				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use NextDNS Encrypted DNS over HTTPS</string>
 				<key>PayloadDisplayName</key>
-				<string>Deactivate Advertisement Filtering</string>
+				<string>Disable Ad Filtering</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.62a7b9b4-c85a-499e-9f1c-0373d78c4d34</string>
 				<key>PayloadOrganization</key>
-				<string>NHT_Anh (ad692a)</string>
+				<string>NextDNS (ad692a)</string>
 				<key>PayloadType</key>
 				<string>com.apple.dnsSettings.managed</string>
 				<key>PayloadUUID</key>
@@ -78,14 +56,16 @@
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
 					<key>ServerURL</key>
-					<string>https://dns.cloudflare.com/dns-query </string>
+					<string>https://cloudflare-dns.com/dns-query</string>
 				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use Cloudflare Encrypted DNS over HTTPS</string>
 				<key>PayloadDisplayName</key>
-				<string>CloudFlare DNS </string>
+				<string>Cloudflare</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.89bf9c3c-e6c8-4276-911a-35e135285101</string>
 				<key>PayloadOrganization</key>
-				<string>1.1.1.1</string>
+				<string>Cloudflare (1.1.1.1)</string>
 				<key>PayloadType</key>
 				<string>com.apple.dnsSettings.managed</string>
 				<key>PayloadUUID</key>
@@ -99,14 +79,16 @@
 					<key>DNSProtocol</key>
 					<string>HTTPS</string>
 					<key>ServerURL</key>
-					<string>https://dns.quad9.net/dns-query</string>
+					<string>https://dns11.quad9.net/dns-query</string>
 				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use Quad9 Encrypted DNS over HTTPS with ECS</string>
 				<key>PayloadDisplayName</key>
-				<string>Quad9 DNS</string>
+				<string>Quad9</string>
 				<key>PayloadIdentifier</key>
 				<string>com.apple.dnsSettings.managed.da86ec5c-3d63-4e0b-b249-34c8d4bbf5a1</string>
 				<key>PayloadOrganization</key>
-				<string>9.9.9.9</string>
+				<string>Quad9 (9.9.9.11)</string>
 				<key>PayloadType</key>
 				<string>com.apple.dnsSettings.managed</string>
 				<key>PayloadUUID</key>
@@ -114,9 +96,77 @@
 				<key>PayloadVersion</key>
 				<integer>1</integer>
 			</dict>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://doh.mullvad.net/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use Mullvad Encrypted DNS over HTTPS</string>
+				<key>PayloadDisplayName</key>
+				<string>Mullvad</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.e5f6a7b8-c9d0-4234-ef12-345678901234</string>
+				<key>PayloadOrganization</key>
+				<string>Mullvad (194.242.2.2)</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>e5f6a7b8-c9d0-4234-ef12-345678901234</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>DNSSettings</key>
+				<dict>
+					<key>DNSProtocol</key>
+					<string>HTTPS</string>
+					<key>ServerURL</key>
+					<string>https://dns.adguard-dns.com/dns-query</string>
+				</dict>
+				<key>PayloadDescription</key>
+				<string>Configures device to use AdGuard Encrypted DNS over HTTPS</string>
+				<key>PayloadDisplayName</key>
+				<string>AdGuard</string>
+				<key>PayloadIdentifier</key>
+				<string>com.apple.dnsSettings.managed.f6a7b8c9-d0e1-4345-f123-456789012345</string>
+				<key>PayloadOrganization</key>
+				<string>AdGuard (94.140.14.14)</string>
+				<key>PayloadType</key>
+				<string>com.apple.dnsSettings.managed</string>
+				<key>PayloadUUID</key>
+				<string>f6a7b8c9-d0e1-4345-f123-456789012345</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
+			<dict>
+				<key>allowApplePersonalizedAdvertising</key>
+				<false/>
+				<key>allowDiagnosticSubmission</key>
+				<false/>
+				<key>AllowEnterpriseAppInstallation</key>
+				<true/>
+				<key>AllowEnterpriseAppTrust</key>
+				<true/>
+				<key>forceLimitAdTracking</key>
+				<true/>
+				<key>PayloadDisplayName</key>
+				<string>Privacy Tweaks</string>
+				<key>PayloadIdentifier</key>
+				<string>com.optimized.trial.restrictions</string>
+				<key>PayloadType</key>
+				<string>com.apple.applicationaccess</string>
+				<key>PayloadUUID</key>
+				<string>3D67D52C-9CDC-4927-B2BD-C45302754A98</string>
+				<key>PayloadVersion</key>
+				<integer>1</integer>
+			</dict>
 		</array>
 		<key>PayloadDisplayName</key>
-		<string>NHT_Anh's DNS Profile</string>
+		<string>NHT_Anh's AIO DNS Profile</string>
 		<key>PayloadIdentifier</key>
 		<string>NHT-ANH.9a143d13-df28-45b8-8ac4-c6737ec8435b</string>
 		<key>PayloadType</key>
