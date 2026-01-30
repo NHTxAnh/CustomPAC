@@ -143,10 +143,6 @@
 				<integer>1</integer>
 			</dict>
 			<dict>
-				<key>allowApplePersonalizedAdvertising</key>
-				<false/>
-				<key>allowDiagnosticSubmission</key>
-				<false/>
 				<key>AllowEnterpriseAppInstallation</key>
 				<true/>
 				<key>AllowEnterpriseAppTrust</key>
